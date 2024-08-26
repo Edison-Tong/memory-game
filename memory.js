@@ -1,8 +1,6 @@
 let cards = document.querySelectorAll(".card");
 let restartButton = document.getElementById("restart");
 let board = document.getElementsByClassName("wrapper");
-console.log(restartButton);
-console.log(board[0].classList);
 
 cards.forEach(function (card) {
   card.addEventListener("click", flipCard);
