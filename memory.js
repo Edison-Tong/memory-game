@@ -75,4 +75,4 @@ function shuffleDeck() {
   });
 }
 
-// shuffleDeck();
+shuffleDeck();
